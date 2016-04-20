@@ -145,7 +145,9 @@ Assertion.prototype.reply = function(status, responseBody) {
       }
     }
     else {
-      console.log("Assertions for " + self.method.toUpperCase() + " to " + req.url + " were not met. " + self.unmetAction);
+      if (process.env.DEBUG) {
+        console.log("Assertions for " + self.method.toUpperCase() + " to " + req.url + " were not met. " + self.unmetAction);
+      }
       self.handleUnmatchedRequest(next);
     }
   });
