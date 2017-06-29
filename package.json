@@ -1,6 +1,6 @@
 {
   "name": "shmock",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "description": "Simple HTTP Mocking library",
   "keywords": [
     "express",
@@ -25,11 +25,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xetorthio/shmock.git"
+    "url": "https://github.com/consoleau/shmock.git"
   },
   "readmeFilename": "Readme.md",
   "bugs": {
-    "url": "https://github.com/xetorthio/shmock/issues"
+    "url": "https://github.com/consoleau/shmock/issues"
   },
-  "homepage": "https://github.com/xetorthio/shmock"
+  "homepage": "https://github.com/consoleau/shmock"
 }
